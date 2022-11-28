@@ -1,0 +1,99 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.kontaktsida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+.kontaktsida h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  color: green;
+}
+.kontaktsida h2, .kontaktsida .h3-grön {
+  color: green;
+}
+.kontaktsida h3 {
+  font-size: 1rem;
+}
+.kontaktsida p {
+  font-size: 1rem;
+}
+.kontaktsida .kontakt-info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+.kontaktsida .kontakt-info .kontakt-info-text {
+  padding: 0 24px 24px 24px;
+  margin: 48px 12px;
+}
+.kontaktsida .kontakt-info .kontakt-info-text span {
+  color: red;
+}
+.kontaktsida .kontakt-info .formulär {
+  padding: 0 24px 24px 24px;
+  margin: 48px 12px;
+}
+.kontaktsida .kontakt-info .formulär .select-dropmeny {
+  border: 1px solid black;
+  padding: 4px 4px 4px 0;
+  margin-bottom: 20px;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+}
+.kontaktsida .kontakt-info .formulär label {
+  font-size: 0.85em;
+}
+.kontaktsida .kontakt-info .formulär .textfält {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.kontaktsida .kontakt-info .formulär .btn {
+  background: green;
+  width: 100%;
+  color: white;
+  border: 0;
+  padding: 12px 24px;
+  text-align: center;
+}
+.kontaktsida .kontakt-info .formulär .btn:hover {
+  background: rgb(2, 161, 2);
+}
+.kontaktsida .hitta-hit {
+  display: flex;
+  flex-direction: row;
+}
+.kontaktsida .hitta-hit .h3-grön {
+  font-size: 1.3rem;
+}
+.kontaktsida .hitta-hit .kontors-bild {
+  position: relative;
+  right: 40px;
+  bottom: 0px;
+}
+.kontaktsida .hitta-hit .kontors-bild img {
+  width: 490px;
+  height: 300px;
+}
+.kontaktsida .hitta-hit .hitta-hit-info {
+  padding: 0 24px 24px 24px;
+  margin: 48px 12px;
+  position: relative;
+  left: 30px;
+}
+.kontaktsida .hitta-hit .hitta-hit-info a:visited {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
